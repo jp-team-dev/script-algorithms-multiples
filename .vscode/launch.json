@@ -5,7 +5,7 @@
             "name": "Run App",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/languages/python/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "sudo": false

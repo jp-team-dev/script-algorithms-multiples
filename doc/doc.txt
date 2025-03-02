@@ -21,3 +21,18 @@
     ~/projects/python/script-algorithms-multiples
 
         $ pip install -r requirements.txt
+
+04 - Run App:
+
+        Via "launch.json" dentro do ".vscode" 
+    
+            ~/projects/python/script-algorithms-multiples
+
+                F5
+        
+        Via terminal
+
+            ~/projects/python/script-algorithms-multiples/languages/python
+
+                $ cd languages/python
+                $ python main.py
