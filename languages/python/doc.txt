@@ -1,0 +1,11 @@
+# Run Python Code
+
+    $ python /home/hell/projects/python/script-algorithms-multiples/languages/python/src/soma_numeros_inteiro.py
+
+    ou
+
+    $ cd /home/hell/projects/python/script-algorithms-multiples/languages/python/src/
+    $ python soma_numeros_inteiro.py
+
+
+    

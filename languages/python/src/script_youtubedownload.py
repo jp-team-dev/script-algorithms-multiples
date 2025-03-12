@@ -22,8 +22,9 @@
 
 # Import native dependency "tkinter" and libraries of tertiary "mhyt" => "yt_download"
 from tkinter import *
-from mhyt import yt_download
 from tkinter import messagebox
+
+from mhyt import yt_download
 
 # Setting variable using library "tkinter"
 root = Tk()

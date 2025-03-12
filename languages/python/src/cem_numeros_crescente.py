@@ -14,12 +14,15 @@ while (option == "s"):
 
     # Estrutura condicional, se o usuário escolher "SIM", vai ser dado o início do programa
     if (option == "s"):
+
+        # Tipando as variáveis para o tipo número inteiro
+        num = int(input("Digite o valor corresondente ao número, \nInsira um número INTEIRO\n"))
                 
         # Setando o valor default para o contador
         count = 0
 
         # A intereção será incrementada de [0], irá parar quando atingir [100], e será incrementado [1] à cada interação
-        for i in range(0, 100, 1):
+        for i in range(num, 100, 1):
 
             # Contador de incremento
             count = count + 1

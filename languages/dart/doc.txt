@@ -1,0 +1,11 @@
+# Run Dart Code
+
+    $ dart run /home/hell/projects/python/script-algorithms-multiples/languages/dart/src/soma_numeros_inteiro.dart
+
+    ou
+
+    $ cd /home/hell/projects/python/script-algorithms-multiples/languages/dart/src/
+    $ dart run soma_numeros_inteiro.dart
+
+
+    

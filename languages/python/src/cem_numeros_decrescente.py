@@ -16,16 +16,13 @@ while (option == "s"):
     if (option == "s"):
 
         # Tipando as variáveis para o tipo número inteiro
-        #number1 = int(input("Digite um número qualquer, \nInsira um número INTEIRO\n"))
-        
-        # Imprimindo na tela o resultado
-        #print('O primeiro número {} é maior do que o segundo número {}!\n'.format(number1, number2))
-        
+        num = int(input("Digite o valor corresondente ao número, \nInsira um número INTEIRO\n"))
+                
         # Setando o valor default para o contador
         count = 0
 
         # A intereção será decrementada de [100], irá parar quando atingir [0], e será decrementado [1] à cada interação
-        for i in range(100, 0, -1):
+        for i in range(num, 0 - 1, -1):
 
             # Contador de decremento
             count = count + 1

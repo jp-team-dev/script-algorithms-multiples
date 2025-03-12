@@ -35,7 +35,7 @@ while (option == "s"):
         if(currentDate > 0 and currentDate <= 17):
 
             # Exibe o resultado na tela
-            print('Olá {}, você nasceu no ano de {}, você tem {} anos de idade, portanto você é MENOR de idade!\n'.format((name), (birthYear), (currentDate)))
+            print('Olá {}, você nasceu no ano de {}, você tem {} anos de idade, portanto você NÃO tem a maioridade, ou seja você é MENOR de idade!\n'.format((name), (birthYear), (currentDate)))
 
         else:
 
