@@ -32,13 +32,13 @@ while (r == "S"):
         if(idade < 18):
             mulher_menos_de_dezoito = mulher_menos_de_dezoito + 1
     
-    if(idade > idade_mais_velha):                
+    if(idade > idade_mais_velha):
         idade_mais_velha = idade
         nome_mais_velha = nome
 
     if(idade < idade_mais_jovem):
         idade_mais_jovem = idade
-        nome_mais_jovem = nome                        
+        nome_mais_jovem = nome
         
     media = str(round(idade/contador, 2))
     
