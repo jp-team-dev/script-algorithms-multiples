@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "All Apps on All Devices",
+            "configurations": [
+                "Start Python App",
+                "Start Python Api"
+            ]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "Start Python App",
+            "python": "python",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/languages/python/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/languages/python"
+        },
+        {
+            "name": "Start Python Api",
+            "python": "python",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--reload",
+                "--port",
+                "8000"
+            ],
+            "jinja": true,
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+        }
+    ]
+}
